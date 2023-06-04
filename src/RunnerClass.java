@@ -5,5 +5,9 @@ public class RunnerClass {
 
         Calculator calculator= new Calculator();
         calculator.add(3,7);
+
+       int dif= calculator.dif(4,2);
+
+        System.out.println(dif);
     }
 }
